@@ -4,7 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import Home from "./Pages/Home";
-import flashSale from "./Pages/flashSale";
+import FlashSale from "./Pages/Flashsale";
 import TopSelling from "./Pages/TopSelling";
 import NewArrivals from "./Pages/NewArrivals";
 import Audio from "./Pages/Audio";

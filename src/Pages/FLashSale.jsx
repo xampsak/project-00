@@ -12,7 +12,7 @@ import red7 from "/9.jpg";
 import red8 from "/10.jpg";
 
 
-const flashSale = () => {
+const FlashSale = () => {
   const productImages = [red2, red3, red4, red5];
 
   return (
@@ -168,4 +168,4 @@ const flashSale = () => {
   );
 };
 
-export default flashSale;
+export default FlashSale;
