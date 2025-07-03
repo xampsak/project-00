@@ -15,7 +15,7 @@ const App = () => {
     <>
       <Navbar />
       <Routes>
-       <Route path="/flash-sale" element={<Sale />} />
+       <Route path="/sale" element={<Sale />} />
         <Route path="/top-selling" element={<TopSelling />} />
         <Route path="/new-arrivals" element={<NewArrivals />} />
         <Route path="/products" element={<ProductDetails />} />
