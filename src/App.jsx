@@ -3,7 +3,6 @@ import { Routes, Route } from "react-router-dom";
 
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
-import Home from "./Pages/Home";
 import TopSelling from "./Pages/TopSelling";
 import NewArrivals from "./Pages/NewArrivals";
 import Audio from "./Pages/Audio";
@@ -16,7 +15,6 @@ const App = () => {
     <>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
        <Route path="/flash-sale" element={<Sale />} />
         <Route path="/top-selling" element={<TopSelling />} />
         <Route path="/new-arrivals" element={<NewArrivals />} />
