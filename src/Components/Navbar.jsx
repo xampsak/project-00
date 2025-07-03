@@ -27,7 +27,7 @@ const Navbar = () => {
 
           {/* Desktop Links */}
           <div className="hidden lg:flex space-x-6 text-sm uppercase font-bold">
-            <Link to="/flash-sale" className="hover:text-yellow-500 hover:bg-black py-3 px-2">Flash Sale</Link>
+            {/* <Link to="/flash-sale" className="hover:text-yellow-500 hover:bg-black py-3 px-2">Flash Sale</Link> */}
             <Link to="/new-arrivals" className="hover:text-yellow-500 hover:bg-black py-3 px-2">New Arrivals</Link>
             <Link to="/products" className="hover:text-yellow-500 hover:bg-black py-3 px-2">Products</Link>
             <Link to="/top-selling" className="hover:text-yellow-500 hover:bg-black py-3 px-2">Top Selling</Link>
