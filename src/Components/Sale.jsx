@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "../Components/Footer";
+import Footer from "./Footer";
 
 import red from "/2.jpg";
 import red1 from "/3.jpg";
@@ -12,7 +12,7 @@ import red7 from "/9.jpg";
 import red8 from "/10.jpg";
 
 
-const SaleFlash = () => {
+const Flashsalee = () => {
   const productImages = [red2, red3, red4, red5];
 
   return (
@@ -168,4 +168,4 @@ const SaleFlash = () => {
   );
 };
 
-export default SaleFlash;
+export default Flashsalee;
