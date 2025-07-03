@@ -24,7 +24,7 @@ const App = () => {
         <Route path="/audio" element={<Audio />} />
         <Route path="/smart-phones" element={<SmartPhones />} />
       </Routes>
-      <Footer />
+      
     </>
   );
 };
