@@ -163,7 +163,7 @@ const Sale = () => {
 
  
     </div>
-    
+    <Footer/>
     </>
   );
 };
