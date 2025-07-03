@@ -59,7 +59,7 @@ const Navbar = () => {
         {/* Mobile Dropdown Menu */}
         {isOpen && (
           <div className="lg:hidden px-6 pb-4 space-y-2 text-sm font-bold uppercase">
-            <Link to="/flash-sale" className="block text-black hover:text-yellow-500 hover:bg-black py-3 px-2">Flash Sale</Link>
+            {/* <Link to="/flash-sale" className="block text-black hover:text-yellow-500 hover:bg-black py-3 px-2">Flash Sale</Link> */}
             <Link to="/new-arrivals" className="block text-black hover:text-yellow-500 hover:bg-black py-3 px-2">New Arrivals</Link>
             <Link to="/products" className="block text-black hover:text-yellow-500 hover:bg-black py-3 px-2">Products</Link>
             <Link to="/top-selling" className="block text-black hover:text-yellow-500 hover:bg-black py-3 px-2">Top Selling</Link>
