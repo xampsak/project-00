@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <header>
       {/* Top Black Bar */}
-      <div className="bg-black text-yellow-400 text-xs uppercase px-6 py-2 font-semibold flex justify-end space-x-4">
+      <div className="bg-black text-yellow-400 text-xs uppercase px-6 py-2 font-bold flex justify-end space-x-4">
         <div className="flex items-center text-md space-x-4">
           <Link to="#">Search</Link>
           <span className="h-4 w-px bg-white"></span>
@@ -19,9 +19,9 @@ const Navbar = () => {
 
       {/* Main Navbar */}
       <nav className="bg-white  border-b border-gray-200 shadow-sm">
-        <div className="px-6 py-0 flex items-center justify-between">
+        <div className="px-6  py-3 flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center  ">
+          <div className="flex items-center   ">
             <img src="/1.png" alt="Logo" className="w-48 h-20  object-cover" />
           </div>
 
